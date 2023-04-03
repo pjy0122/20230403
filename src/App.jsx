@@ -1,8 +1,9 @@
+import Calendar from "./components/Calendar";
 
 function App() {
   return (
-    <div>
-      <h1>하이</h1>
+    <div className="min-h-screen bg-gray-200 flex justify-center items-center">
+      <Calendar />
     </div>
   );
 }
